@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# драйверы
+chromedriver
+geckodriver
+
+# еще мусор
+.DS_Store
