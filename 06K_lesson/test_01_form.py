@@ -69,7 +69,7 @@ def test_fill_form():
 
     # 5. Проверка: Остальные поля подсвечены зеленым (класс alert-success)
     other_fields = [
-        "first-name", "last-name", "address", "e-mail", 
+        "first-name", "last-name", "address", "e-mail",
         "phone", "city", "country", "job-position", "company"
     ]
 
