@@ -49,7 +49,7 @@ def test_slow_calculator():
     # Это "умное" ожидание: оно проверяет экран калькулятора
     wait = WebDriverWait(driver, 45)
 
-    # Ждем конкретное условие: 
+    # Ждем конкретное условие:
     # когда в элементе с классом "screen" появится текст "15"
     wait.until(
         EC.text_to_be_present_in_element((By.CLASS_NAME, "screen"), "15")
