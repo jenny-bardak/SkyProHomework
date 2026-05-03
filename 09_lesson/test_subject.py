@@ -1,5 +1,8 @@
+# чтобы писать SQL-запросы обычной строкой
+# типа select/insert/update/delete
 from sqlalchemy import text
 
+# импорт функции из db.py
 from db import get_engine
 
 
