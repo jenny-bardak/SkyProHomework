@@ -212,3 +212,10 @@ geckodriver
 
 # еще мусор
 .DS_Store
+
+# allure-результаты и html-отчеты генерируются локально
+# поэтому в репозиторий их не добавляем
+allure-results/
+allure-report/
+10_lesson/allure-results/
+10_lesson/allure-report/
